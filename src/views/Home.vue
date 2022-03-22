@@ -1,18 +1,32 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <main class="container">
+      <div class="bg-light p-5 rounded">
+        <h1>Navbar example</h1>
+        <p class="lead">
+          This example is a quick exercise to illustrate how the top-aligned
+          navbar works. As you scroll, this navbar remains in its original
+          position and moves with the rest of the page.
+        </p>
+        <a
+          class="btn btn-lg btn-primary"
+          href="/docs/5.1/components/navbar/"
+          role="button"
+          >View navbar docs &raquo;</a
+        >
+      </div>
+    </main>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import Navbar from '@/components/Navbar.vue'
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    // Navbar
+  },
+};
 </script>
