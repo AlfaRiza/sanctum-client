@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <main class="container">
-      <div class="bg-light p-5 rounded">
-        <h1>Navbar example</h1>
+      <div class="bg-light rounded">
+        <h1>Home</h1>
         <p class="lead">
           This example is a quick exercise to illustrate how the top-aligned
           navbar works. As you scroll, this navbar remains in its original
